@@ -8,25 +8,36 @@
 
 #navigation{
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 #header{
+height: 100px;
 display:grid;
-grid-template-rows: 80% auto;
+grid-template-rows: 40% auto;
 text-align: center;
-
 }
 
-#hero-iumage{
-    height: 150px;
-    background-color: lightcoral;
+#hero-image{
+    height: 250px;
+    background-image: url("https://st.depositphotos.com/1757583/3326/i/950/depositphotos_33266691-stock-photo-deep-outer-space.jpg");
+    background-size: cover;
 }
 
 #content{
     height: 100px;
-    background-color:  green;
+    background-color:  blue;
     width: 50%;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: -1px 1px 6px grey;
 
+}
+
+#content-article{
+    margin-top: 50px;
+    background-color: grey;
+    box-shadow: -1px 1px 6px grey;
 }
 
