@@ -1,0 +1,32 @@
+
+
+*{
+    
+    border: 1px solid black;
+
+}
+
+#navigation{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#header{
+display:grid;
+grid-template-rows: 80% auto;
+text-align: center;
+
+}
+
+#hero-iumage{
+    height: 150px;
+    background-color: lightcoral;
+}
+
+#content{
+    height: 100px;
+    background-color:  green;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
